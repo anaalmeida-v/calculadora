@@ -12,8 +12,8 @@ function Calculadora() {
   };
 
   const deleteButton = () => {
-
-  };
+    setCurrentOperand(currentOperand.slice(0, -1));
+  };      
 
   const appendnumber = (number) => {
     if (number === "." && currentOperand.includes('.')) return;
