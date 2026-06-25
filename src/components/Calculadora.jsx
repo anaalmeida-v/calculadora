@@ -86,9 +86,9 @@ function Calculadora() {
         <button className="btn-number" onClick={() => appendNumber('3')}>3</button>
         <button className="btn-operator" onClick={() => chooseOperation('+')}>+</button>
 
+        <button className="btn-number span-two" onClick={() => appendNumber('0')}>0</button>
         <button className="btn-number" onClick={() => appendNumber('.')}>.</button>
-        <button className="btn-number" onClick={() => appendNumber('0')}>0</button>
-        <button className="btn-control span-two" onClick={() => calculate()}>=</button>
+        <button className="btn-control" onClick={() => calculate()}>=</button>
       </div>
     </div>
   )
