@@ -63,7 +63,7 @@ function Calculadora() {
     <div className="calculadora">
       <div className="visor">
         <div className="operando-anterior">{previousOperand}</div>
-        <div className="operando-atual">{currentOperand}</div>
+        <div className="operando-atual">{currentOperand || '0'}</div>
       </div>
 
       <div className="teclado">
