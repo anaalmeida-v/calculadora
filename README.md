@@ -22,3 +22,34 @@ Este projeto foi desenvolvido de forma 100% manual (linha por linha) com fins di
 * **Google Fonts** (Integração da fonte Space Mono)
 
 ---
+
+## 📸 Demonstração do Layout
+
+Abaixo está o design do protótipo que desenvolvi no Figma para guiar a construção do projeto:
+| Protótipo |
+|-----------|
+| <img width="1211" height="739" alt="prototipo" src="https://github.com/user-attachments/assets/3355d172-ef8c-47e2-928c-7ff3233a54cb" /> |
+
+## ⚙️ Como Executar o Projeto Localmente
+
+Para clonar e rodar esta aplicação na sua máquina, você precisará do [Git](https://git-scm.com) e do [Node.js](https://nodejs.org/) instalados.
+
+No seu terminal, siga o passo a passo:
+
+```bash
+# 1. Clone este repositório
+$ git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+
+# 2. Acesse a pasta do projeto
+$ cd nome-do-repositorio
+
+# 3. Instale as dependências do projeto
+$ npm install
+
+# 4. Rode a aplicação em modo de desenvolvimento
+$ npm run dev
+```
+
+O Vite abrirá um servidor local. Basta acessar o link gerado (geralmente http://localhost:5173/) no seu navegador!
+
+---
