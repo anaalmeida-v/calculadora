@@ -1,16 +1,24 @@
-# React + Vite
+# Calculadora Dev - React & CSS Grid/Flex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um projeto moderno de calculadora web construído do zero, focado em colocar em prática conceitos sólidos de arquitetura de componentes no React, manipulação de estados (`useState`) e estilização avançada com CSS Grid e Flexbox.
 
-Currently, two official plugins are available:
+A interface foi totalmente baseada em um protótipo autoral que eu mesma desenhei no **Figma**, utilizando uma paleta de tons escuros com contrastes em roxo neon e a tipografia **'Space Mono'**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🎯 Objetivo do Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Este projeto foi desenvolvido de forma 100% manual (linha por linha) com fins didáticos, focado em:
+* Dominar o fluxo de renderização e reatividade do **React**.
+* Aplicar **CSS Grid** para layouts bidimensionais complexos (teclado da calculadora).
+* Utilizar boas práticas de versionamento com **Conventional Commits**.
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React** (Biblioteca principal)
+* **Vite** (Ambiente de desenvolvimento ultra rápido)
+* **JavaScript (ES6+)** (Lógica de programação)
+* **CSS3** (CSS Grid, Flexbox e efeitos visuais)
+* **Google Fonts** (Integração da fonte Space Mono)
+
+---
