@@ -3,7 +3,37 @@ import React, { useState } from "react";
 function Calculadora() {
   const [currentOperand, setCurrentOperand] = useState('');
   const [previousOperand, setPreviousOperand] = useState('');
-  const [opration, setOperation] = useState(null);
+  const [operation, setOperation] = useState(null);
+
+  const calculate = () => {
+    let computation;
+
+    const prev = parseFloat(previousOperand);
+    const current = parseFloat(currentOperand);
+
+    if (isNaN(prev) ||  isNaN(current)) return;
+
+    switch (operation) {
+      case '+':
+        computation = prev + current;
+        break;
+      case '-':
+        computation = prev - current;
+        break;
+      case '*':
+        computation = prev * current;
+        break;
+      case '/':
+        computation = current === 0 ? "Não é possível dividir por 0" : prev / current;
+        break;
+      default:
+        return;
+    }
+
+    setCurrentOperand(computation.toString());
+    setOperation(null);
+    setPreviousOperand('');
+  };
 
   const clearButton = () => {
     setCurrentOperand('');
@@ -58,7 +88,7 @@ function Calculadora() {
 
         <button className="btn-number" onClick={() => appendNumber('.')}>.</button>
         <button className="btn-number" onClick={() => appendNumber('0')}>0</button>
-        <button className="btn-control span-two">=</button>
+        <button className="btn-control span-two" onClick={() => calculate()}>=</button>
       </div>
     </div>
   )
